@@ -1,0 +1,19 @@
+{
+  "name": "pruebas-selenium",
+  "version": "1.0.0",
+  "description": "pruebas selenium",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "Sebastian",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.3",
+    "selenium-webdriver": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.7"
+  }
+}
