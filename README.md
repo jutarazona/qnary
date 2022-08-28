@@ -20,6 +20,7 @@ npm ci
 npm run test
 
 
+
 ## Check and extract data from results
 
 Test results will be saved on the directory html-report, open the report.html on the navigator to see the web view,
