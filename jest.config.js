@@ -6,6 +6,18 @@ module.exports = {
         "js",
         "node"
     ],
+    "reporters": [
+        "default",
+        ["jest-html-reporters", {
+            "publicPath": "./html-report",
+            "filename": "report.html",
+            "openReport": false,
+            "append": true,
+            "pageTitle": "Qnary Report",
+            "includeFailureMsg": true,
+            "dateFormat": "yyyy-mm-dd HH:MM"
+        }]
+    ],
     testMatch: [
         "**.test.js"
     ],
@@ -15,5 +27,5 @@ module.exports = {
     ],
     roots: [
         "<rootDir>/test/"
-      ]
+    ]
 };
