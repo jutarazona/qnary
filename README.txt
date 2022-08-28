@@ -4,7 +4,7 @@ In order to build the project, ensure that you have Git and Node.js installed.
 
 Clone a copy of the repo:
 
-https://github.com/jutarazona/qnary.git
+git clone https://github.com/jutarazona/qnary.git
 
 Install tools and dev dependencies:
 
